@@ -1,0 +1,121 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f3f7;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Container */
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Header Styling */
+header {
+    background: linear-gradient(135deg, #f8a5c2, #f78fb3);
+    padding: 20px 0;
+    color: white;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Section Styling */
+section {
+    padding: 40px 0;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 2rem;
+    color: #e84393;
+}
+/* About Section */
+.about-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.profile-pic {
+    
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+#about p {
+    font-size: 1.2rem;
+    margin-top: 20px;
+    flex: 1;
+}
+
+
+/* Contact Section */
+#contact p {
+    font-size: 1.1rem;
+    margin: 10px 0;
+}
+
+#contact a {
+    color: #e84393;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #f78fb3;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 0.9rem;
+}
+
+/*   Projects  */
+
+.project-pic {
+    
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+    margin-right: 20px;
+
+}
